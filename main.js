@@ -46,3 +46,10 @@ function tocaSomPsh () {
     }
     
     document.querySelector(".tecla_Psh").onclick = tocaSomPsh;.
+
+//tecla tic
+function tocaSomTic () {
+    document.querySelector("#Som_Tecla_Tic").play();
+    }
+    
+    document.querySelector(".tecla_Tic").onclick = tocaSomTic;.
