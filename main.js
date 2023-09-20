@@ -18,3 +18,10 @@ function tocaSomTim () {
     }
     
     document.querySelector(".tecla_Tim").onclick = tocaSomTim;
+
+//Tecla puff
+function tocaSomPuff () {
+    document.querySelector("#Som_Tecla_Puff").play();
+    }
+    
+    document.querySelector(".tecla_Puff").onclick = tocaSomPuff;
