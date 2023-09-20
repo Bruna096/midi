@@ -19,9 +19,16 @@ function tocaSomTim () {
     
     document.querySelector(".tecla_Tim").onclick = tocaSomTim;
 
-//Tecla puff
+//tecla puff
 function tocaSomPuff () {
     document.querySelector("#Som_Tecla_Puff").play();
     }
     
     document.querySelector(".tecla_Puff").onclick = tocaSomPuff;
+
+//tecla splash
+function tocaSomSplash () {
+    document.querySelector("#Som_Tecla_Splash").play();
+    }
+    
+    document.querySelector(".tecla_Splash").onclick = tocaSomSplash;
