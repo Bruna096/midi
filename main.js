@@ -38,4 +38,11 @@ function tocaSomToim () {
     document.querySelector("#Som_Tecla_Toim").play();
     }
     
-    document.querySelector(".tecla_Toim").onclick = tocaSomToim;
+    document.querySelector(".tecla_Toim").onclick = tocaSomToim;.
+
+//tecla psh
+function tocaSomPsh () {
+    document.querySelector("#Som_Tecla_Psh").play();
+    }
+    
+    document.querySelector(".tecla_Psh").onclick = tocaSomPsh;.
