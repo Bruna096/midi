@@ -53,3 +53,10 @@ function tocaSomTic () {
     }
     
     document.querySelector(".tecla_Tic").onclick = tocaSomTic;.
+
+//tecla tom
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_Tom").play();
+    }
+    
+    document.querySelector(".tecla_Tom").onclick = tocaSomTom;.
