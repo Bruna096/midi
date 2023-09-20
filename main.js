@@ -38,25 +38,25 @@ function tocaSomToim () {
     document.querySelector("#Som_Tecla_Toim").play();
     }
     
-    document.querySelector(".tecla_Toim").onclick = tocaSomToim;.
+    document.querySelector(".tecla_Toim").onclick = tocaSomToim;
 
 //tecla psh
 function tocaSomPsh () {
     document.querySelector("#Som_Tecla_Psh").play();
     }
     
-    document.querySelector(".tecla_Psh").onclick = tocaSomPsh;.
+    document.querySelector(".tecla_Psh").onclick = tocaSomPsh;
 
 //tecla tic
 function tocaSomTic () {
     document.querySelector("#Som_Tecla_Tic").play();
     }
     
-    document.querySelector(".tecla_Tic").onclick = tocaSomTic;.
+    document.querySelector(".tecla_Tic").onclick = tocaSomTic;
 
 //tecla tom
 function tocaSomTom () {
     document.querySelector("#Som_Tecla_Tom").play();
     }
     
-    document.querySelector(".tecla_Tom").onclick = tocaSomTom;.
+    document.querySelector(".tecla_Tom").onclick = tocaSomTom;
