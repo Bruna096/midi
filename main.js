@@ -32,3 +32,10 @@ function tocaSomSplash () {
     }
     
     document.querySelector(".tecla_Splash").onclick = tocaSomSplash;
+
+//tecla toim
+function tocaSomToim () {
+    document.querySelector("#Som_Tecla_Toim").play();
+    }
+    
+    document.querySelector(".tecla_Toim").onclick = tocaSomToim;
