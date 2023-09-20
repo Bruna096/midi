@@ -60,4 +60,3 @@ function tocaSomTom () {
     }
     
     document.querySelector(".tecla_Tom").onclick = tocaSomTom;
-    
