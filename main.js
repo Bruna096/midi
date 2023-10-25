@@ -62,9 +62,42 @@ function tocaSomTom () {
     document.querySelector(".tecla_Tom").onclick = tocaSomTom;
 */
 
-function tocaSomPom () {
-document.querySelector("#Som_Tecla_Pom").play();
-}
+//20/10 variáveis
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_pom").play();
+    }
+ 
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_clap").play();
+    }
+
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_tim").play();
+    }
+
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_puff").play();
+    }
+
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_splash").play();
+    }
+
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_toim").play();
+    }    
+
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_psh").play();
+    }
+
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_tic").play();
+    }
+
+function tocaSomTom () {
+    document.querySelector("#Som_Tecla_tom").play();
+    }   
 
 const listaDeTeclas = document.querySelectorAll('.tecla')
 listaDeTeclas[0].onclick = tocaSomPom;
